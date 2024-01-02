@@ -1,5 +1,5 @@
 import { component$ } from "@builder.io/qwik";
-import { Link } from "@builder.io/qwik-city";
+import { type DocumentHead, Link } from "@builder.io/qwik-city";
 import drinks from "~/data/drinks.json";
 
 export default component$(() => {
@@ -30,3 +30,21 @@ export default component$(() => {
     </div>
   );
 });
+
+export const head: DocumentHead = {
+  title: "Drink - Coffee Recipe",
+  meta: [
+    {
+      name: "description",
+      content: "Line I love coffee special guest drink recipes",
+    },
+    {
+      name: "og:title",
+      content: "Drink - Coffee Recipe",
+    },
+    {
+      name: "og:description",
+      content: "Line I love coffee special guest drink recipes",
+    },
+  ],
+};

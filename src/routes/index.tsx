@@ -3,8 +3,13 @@ import { Link, type DocumentHead } from "@builder.io/qwik-city";
 
 export default component$(() => {
   return (
-    <div class="h-[100dvh] flex justify-center flex-col items-center">
-      <Link class="p-4 rounded-xl bg-slate-100 text-2xl font-bold hover:bg-blue-100" href="/drink">Drink Recipes</Link>
+    <div class="flex h-[100dvh] flex-col items-center justify-center">
+      <Link
+        class="rounded-xl bg-slate-100 p-4 text-2xl font-bold hover:bg-blue-100"
+        href="/drink"
+      >
+        Drink Recipes
+      </Link>
     </div>
   );
 });
@@ -14,7 +19,15 @@ export const head: DocumentHead = {
   meta: [
     {
       name: "description",
-      content: "Qwik site description",
+      content: "Line I love coffee special guest recipes",
+    },
+    {
+      name: "og:title",
+      content: "Coffee Recipe",
+    },
+    {
+      name: "og:description",
+      content: "Line I love coffee special guest recipes",
     },
   ],
 };
