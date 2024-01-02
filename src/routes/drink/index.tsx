@@ -9,7 +9,7 @@ export default component$(() => {
 
   return (
     <div class="flex min-h-[100dvh] flex-col items-center justify-center gap-4 p-4">
-      <p class="text-4xl font-bold mb-8">สูตรกาแฟลูกค้าประจำ (Special Guest)</p>
+      <p class="mb-8 text-4xl font-bold">สูตรกาแฟลูกค้าประจำ (Special Guest)</p>
       {uniqueCustomers.map(({ customerId, customer }) => (
         <Link
           key={customerId}
@@ -21,6 +21,12 @@ export default component$(() => {
           <p class="hidden group-hover:block">🪿</p>
         </Link>
       ))}
+      <Link
+        href="/"
+        class="rounded-xl text-xl font-bold decoration-blue-500 decoration-wavy hover:underline"
+      >
+        Back to main
+      </Link>
     </div>
   );
 });
