@@ -19,6 +19,7 @@ export default component$(() => {
             <p>แก้ว: {drink.glass.name}</p>
             {drink.glass.size && <p>ขนาด: {drink.glass.size}</p>}
             {drink.ice && <p>น้ำแข็ง: {drink.ice}</p>}
+            {drink.tea && <p>ชา: {drink.tea}</p>}
             {drink.shot !== 0 && <p>ช็อต: {drink.shot}</p>}
             {drink.fill.name && <p>เติม: {drink.fill.name}</p>}
             {drink.fill.temperature !== 0 && (
