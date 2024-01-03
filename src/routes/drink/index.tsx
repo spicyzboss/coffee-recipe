@@ -10,17 +10,17 @@ export default component$(() => {
   return (
     <div class="flex min-h-[100dvh] flex-col items-center justify-center gap-4 p-4">
       <p class="mb-8 text-4xl font-bold">สูตรกาแฟลูกค้าประจำ (Special Guest)</p>
-      {uniqueCustomers.map(({ customerId, customer }) => (
-        <Link
-          key={customerId}
-          class="group flex w-full max-w-lg justify-center gap-2 rounded-xl bg-slate-100 p-4 text-2xl font-bold hover:bg-orange-100"
-          href={`/drink/${customerId}`}
-        >
-          <p class="hidden group-hover:block">🪿</p>
-          <p>{customer}</p>
-          <p class="hidden group-hover:block">🪿</p>
-        </Link>
-      ))}
+      <div class="grid grid-cols-1 gap-4 lg:grid-cols-4">
+        {uniqueCustomers.map(({ customerId, customer }) => (
+          <Link
+            key={customerId}
+            class="group flex w-full max-w-lg justify-center gap-2 rounded-xl bg-slate-100 p-4 text-2xl font-bold hover:bg-orange-100"
+            href={`/drink/${customerId}`}
+          >
+            {customer}
+          </Link>
+        ))}
+      </div>
       <Link
         href="/"
         class="rounded-xl text-xl font-bold decoration-blue-500 decoration-wavy hover:underline"

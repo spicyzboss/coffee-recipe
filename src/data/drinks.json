@@ -470,5 +470,639 @@
       "volume": ""
     },
     "topping": "วนิลา (Vanilla)"
+  },
+  {
+    "customerId": 6,
+    "customer": "หนุ่มเพอร์เฟ็ค (Frat Boy)",
+    "name": "เอสเพรสโซ่ (Espresso)",
+    "glass": {
+      "name": "เดมิทาส (Double Espresso)",
+      "size": ""
+    },
+    "shot": 1,
+    "ice": "",
+    "fill": {
+      "name": "",
+      "volume": "",
+      "temperature": 0
+    },
+    "syrup": {
+      "name": "ชูการ์ไซรัป (Sugar)",
+      "pump": 1
+    },
+    "cream": {
+      "name": "",
+      "volume": ""
+    },
+    "topping": ""
+  },
+  {
+    "customerId": 6,
+    "customer": "หนุ่มเพอร์เฟ็ค (Frat Boy)",
+    "name": "ดับเบิ้ลช็อตลาเต้ (Double-shot Latte)",
+    "glass": {
+      "name": "เดมิทาส (Double Espresso)",
+      "size": ""
+    },
+    "shot": 2,
+    "ice": "",
+    "fill": {
+      "name": "นมสด (Milk)",
+      "volume": "22 - 25",
+      "temperature": 60
+    },
+    "syrup": {
+      "name": "ชูการ์ไซรัป (Sugar)",
+      "pump": 1
+    },
+    "cream": {
+      "name": "",
+      "volume": ""
+    },
+    "topping": ""
+  },
+  {
+    "customerId": 6,
+    "customer": "หนุ่มเพอร์เฟ็ค (Frat Boy)",
+    "name": "กาแฟที่มั่นใจ (Coffee Specialty)",
+    "glass": {
+      "name": "เดมิทาส (Double Espresso)",
+      "size": ""
+    },
+    "shot": 2,
+    "ice": "",
+    "fill": {
+      "name": "นมสด (Milk)",
+      "volume": "25 - 30",
+      "temperature": 60
+    },
+    "syrup": {
+      "name": "ชูการ์ไซรัป (Sugar)",
+      "pump": 1
+    },
+    "cream": {
+      "name": "",
+      "volume": ""
+    },
+    "topping": ""
+  },
+  {
+    "customerId": 6,
+    "customer": "หนุ่มเพอร์เฟ็ค (Frat Boy)",
+    "name": "เอสเพรสโซ่ เข้มๆ (The most bitter Espresso)",
+    "glass": {
+      "name": "เดมิทาส (Double Espresso)",
+      "size": ""
+    },
+    "shot": 1,
+    "ice": "",
+    "fill": {
+      "name": "",
+      "volume": "",
+      "temperature": 0
+    },
+    "syrup": {
+      "name": "",
+      "pump": 0
+    },
+    "cream": {
+      "name": "",
+      "volume": ""
+    },
+    "topping": ""
+  },
+  {
+    "customerId": 6,
+    "customer": "หนุ่มเพอร์เฟ็ค (Frat Boy)",
+    "name": "กาแฟแนะนำ (Recommended Coffee)",
+    "glass": {
+      "name": "แก้วใส (Cup)",
+      "size": "S"
+    },
+    "shot": 1,
+    "ice": "",
+    "fill": {
+      "name": "นมสด (Milk)",
+      "volume": "25 - 30",
+      "temperature": 60
+    },
+    "syrup": {
+      "name": "ช็อคโกแลตไซรัป (Chocolate)",
+      "pump": 1
+    },
+    "cream": {
+      "name": "",
+      "volume": ""
+    },
+    "topping": ""
+  },
+  {
+    "customerId": 7,
+    "customer": "สาวอีที (E.T. Girl)",
+    "name": "อเมริกาโน่เย็น (Iced Caffè Americano)",
+    "glass": {
+      "name": "แก้วใส (Cup)",
+      "size": "S"
+    },
+    "shot": 4,
+    "ice": "เยอะมาก (Full)",
+    "fill": {
+      "name": "น้ำเย็น (Cold Water)",
+      "volume": "17",
+      "temperature": 0
+    },
+    "syrup": {
+      "name": "ชูการ์ไซรัป (Sugar)",
+      "pump": 3
+    },
+    "cream": {
+      "name": "",
+      "volume": ""
+    },
+    "topping": ""
+  },
+  {
+    "customerId": 7,
+    "customer": "สาวอีที (E.T. Girl)",
+    "name": "เครื่องดื่มสูตรพิเศษ (Special Drink)",
+    "glass": {
+      "name": "แก้วใส (Cup)",
+      "size": "XL"
+    },
+    "shot": 0,
+    "ice": "ปกติ (Average)",
+    "fill": {
+      "name": "นมสด (Milk)",
+      "volume": "30 - 31",
+      "temperature": 0
+    },
+    "syrup": {
+      "name": "ชูการ์ไซรัป (Sugar)",
+      "pump": 3
+    },
+    "cream": {
+      "name": "ปกติ (Plain)",
+      "volume": "ปกติ (Average)"
+    },
+    "topping": ""
+  },
+  {
+    "customerId": 7,
+    "customer": "สาวอีที (E.T. Girl)",
+    "name": "ยาสูตรพิเศษ (Special Cake)",
+    "glass": {
+      "name": "แก้วใส (Cup)",
+      "size": "XL"
+    },
+    "shot": 0,
+    "ice": "ปกติ (Average)",
+    "fill": {
+      "name": "นมสด (Milk)",
+      "volume": "30 - 37",
+      "temperature": 0
+    },
+    "syrup": {
+      "name": "ชูการ์ไซรัป (Sugar)",
+      "pump": 4
+    },
+    "cream": {
+      "name": "ปกติ (Plain)",
+      "volume": "ปกติ (Average)"
+    },
+    "topping": ""
+  },
+  {
+    "customerId": 7,
+    "customer": "สาวอีที (E.T. Girl)",
+    "name": "อเมริกาโน่อ่อนๆ (Weak Iced Americano)",
+    "glass": {
+      "name": "แก้วใส (Cup)",
+      "size": "S"
+    },
+    "shot": 2,
+    "ice": "ปกติ (Average)",
+    "fill": {
+      "name": "น้ำเย็น (Cold Water)",
+      "volume": "42 - 45",
+      "temperature": 0
+    },
+    "syrup": {
+      "name": "ชูการ์ไซรัป (Sugar)",
+      "pump": 3
+    },
+    "cream": {
+      "name": "",
+      "volume": ""
+    },
+    "topping": ""
+  },
+  {
+    "customerId": 7,
+    "customer": "สาวอีที (E.T. Girl)",
+    "name": "ของขวัญ (Gift)",
+    "glass": {
+      "name": "แก้วใส (Cup)",
+      "size": "S"
+    },
+    "shot": 0,
+    "ice": "",
+    "fill": {
+      "name": "นมสด (Milk)",
+      "volume": "20 - 25",
+      "temperature": 0
+    },
+    "syrup": {
+      "name": "ช็อคโกแลตไซรัป (Chocolate)",
+      "pump": 3
+    },
+    "cream": {
+      "name": "",
+      "volume": ""
+    },
+    "topping": "ช็อคโกแลต (Chocolate)"
+  },
+  {
+    "customerId": 8,
+    "customer": "บอร์ดมาเนีย (Snow Boarder)",
+    "name": "คาราเมลลาเต้ (Caramel Latte)",
+    "glass": {
+      "name": "แก้วมัค (Mug)",
+      "size": "S"
+    },
+    "shot": 2,
+    "ice": "",
+    "fill": {
+      "name": "นมสด (Milk)",
+      "volume": "15 - 20",
+      "temperature": 65
+    },
+    "syrup": {
+      "name": "คาราเมลไซรัป (Caramel)",
+      "pump": 2
+    },
+    "cream": {
+      "name": "",
+      "volume": ""
+    },
+    "topping": "คาราเมล (Caramel)"
+  },
+  {
+    "customerId": 8,
+    "customer": "บอร์ดมาเนีย (Snow Boarder)",
+    "name": "เครื่องดื่มอิ่มท้อง (Filling Drink)",
+    "glass": {
+      "name": "แก้วมัค (Mug)",
+      "size": "S"
+    },
+    "shot": 2,
+    "ice": "",
+    "fill": {
+      "name": "นมถั่วเหลือง (Soy Milk)",
+      "volume": "35",
+      "temperature": 36
+    },
+    "syrup": {
+      "name": "",
+      "pump": 0
+    },
+    "cream": {
+      "name": "",
+      "volume": ""
+    },
+    "topping": ""
+  },
+  {
+    "customerId": 8,
+    "customer": "บอร์ดมาเนีย (Snow Boarder)",
+    "name": "เครื่องดื่มร้อนๆ อิ่มท้อง (Hot Filling Drink)",
+    "glass": {
+      "name": "แก้วมัค (Mug)",
+      "size": "S"
+    },
+    "shot": 2,
+    "ice": "",
+    "fill": {
+      "name": "นมถั่วเหลือง (Soy Milk)",
+      "volume": "35",
+      "temperature": 80
+    },
+    "syrup": {
+      "name": "",
+      "pump": 0
+    },
+    "cream": {
+      "name": "",
+      "volume": ""
+    },
+    "topping": ""
+  },
+  {
+    "customerId": 8,
+    "customer": "บอร์ดมาเนีย (Snow Boarder)",
+    "name": "คาราเมลลาเต้เข้มๆ (Strong Caramel Latte)",
+    "glass": {
+      "name": "แก้วมัค (Mug)",
+      "size": "XL"
+    },
+    "shot": 0,
+    "ice": "",
+    "fill": {
+      "name": "นมสด (Milk)",
+      "volume": "15",
+      "temperature": 65
+    },
+    "syrup": {
+      "name": "คาราเมลไซรัป (Caramel)",
+      "pump": 2
+    },
+    "cream": {
+      "name": "",
+      "volume": ""
+    },
+    "topping": "คาราเมล (Caramel)"
+  },
+  {
+    "customerId": 8,
+    "customer": "บอร์ดมาเนีย (Snow Boarder)",
+    "name": "น้ำอุ่น (Hot Water)",
+    "glass": {
+      "name": "แก้วมัค (Mug)",
+      "size": "S"
+    },
+    "shot": 3,
+    "ice": "",
+    "fill": {
+      "name": "น้ำร้อน (Hot Water)",
+      "volume": "45 - 50",
+      "temperature": 0
+    },
+    "syrup": {
+      "name": "ชูการ์ไซรัป (Sugar)",
+      "pump": 1
+    },
+    "cream": {
+      "name": "",
+      "volume": ""
+    },
+    "topping": ""
+  },
+  {
+    "customerId": 9,
+    "customer": "เจ้าหญิงน้อย (Little Princess)",
+    "name": "มอคค่าลาเต้ (Mocha Latte)",
+    "glass": {
+      "name": "แก้วมัค (Mug)",
+      "size": "S"
+    },
+    "shot": 2,
+    "ice": "",
+    "fill": {
+      "name": "นมสด (Milk)",
+      "volume": "30 - 36",
+      "temperature": 60
+    },
+    "syrup": {
+      "name": "มอคค่าไซรัป (Mocha)",
+      "pump": 3
+    },
+    "cream": {
+      "name": "",
+      "volume": ""
+    },
+    "topping": "ช็อคโกแลต (Chocolate)"
+  },
+  {
+    "customerId": 9,
+    "customer": "เจ้าหญิงน้อย (Little Princess)",
+    "name": "ชาดำ (Tea)",
+    "glass": {
+      "name": "แก้วมัค (Mug)",
+      "size": "S"
+    },
+    "shot": 0,
+    "ice": "",
+    "fill": {
+      "name": "น้ำร้อน (Hot Water)",
+      "volume": "30",
+      "temperature": 0
+    },
+    "tea": "ผงชาดำ (Black Tea)",
+    "syrup": {
+      "name": "",
+      "pump": 0
+    },
+    "cream": {
+      "name": "",
+      "volume": ""
+    },
+    "topping": ""
+  },
+  {
+    "customerId": 9,
+    "customer": "เจ้าหญิงน้อย (Little Princess)",
+    "name": "ชาดำในความทรงจำ (Unforgettable Tea)",
+    "glass": {
+      "name": "แก้วมัค (Mug)",
+      "size": "S"
+    },
+    "shot": 0,
+    "ice": "",
+    "fill": {
+      "name": "น้ำร้อน (Hot Water)",
+      "volume": "30",
+      "temperature": 0
+    },
+    "tea": "ผงชาดำ (Black Tea)",
+    "syrup": {
+      "name": "ชูการ์ไซรัป (Sugar)",
+      "pump": 4
+    },
+    "cream": {
+      "name": "",
+      "volume": ""
+    },
+    "topping": ""
+  },
+  {
+    "customerId": 9,
+    "customer": "เจ้าหญิงน้อย (Little Princess)",
+    "name": "มอคค่าลาเต้ ตกแต่งสวยๆ (Pretty Mocha Latte)",
+    "glass": {
+      "name": "แก้วมัค (Mug)",
+      "size": "S"
+    },
+    "shot": 2,
+    "ice": "",
+    "fill": {
+      "name": "นมสด (Milk)",
+      "volume": "30",
+      "temperature": 60
+    },
+    "tea": "",
+    "syrup": {
+      "name": "มอคค่าไซรัป (Mocha)",
+      "pump": 4
+    },
+    "cream": {
+      "name": "",
+      "volume": ""
+    },
+    "topping": "ช็อคโกแลต (Chocolate)"
+  },
+  {
+    "customerId": 9,
+    "customer": "เจ้าหญิงน้อย (Little Princess)",
+    "name": "นมร้อน (Hot Milk)",
+    "glass": {
+      "name": "แก้วมัค (Mug)",
+      "size": "S"
+    },
+    "shot": 0,
+    "ice": "",
+    "fill": {
+      "name": "นมสด (Milk)",
+      "volume": "31",
+      "temperature": 55
+    },
+    "tea": "",
+    "syrup": {
+      "name": "มอคค่าไซรัป (Mocha)",
+      "pump": 2
+    },
+    "cream": {
+      "name": "",
+      "volume": ""
+    },
+    "topping": ""
+  },
+  {
+    "customerId": 10,
+    "customer": "เด็กพาร์ทไทม์ (Lazy Part-timer)",
+    "name": "คาราเมลดับเบิ้ลช็อต (Caramel Double Shot)",
+    "glass": {
+      "name": "เดมิทาส (Double Espresso)",
+      "size": ""
+    },
+    "shot": 2,
+    "ice": "",
+    "fill": {
+      "name": "นมสด (Milk)",
+      "volume": "20 - 26",
+      "temperature": 60
+    },
+    "tea": "",
+    "syrup": {
+      "name": "คาราเมลไซรัป (Caramel)",
+      "pump": 2
+    },
+    "cream": {
+      "name": "",
+      "volume": ""
+    },
+    "topping": "คาราเมล (Caramel)"
+  },
+  {
+    "customerId": 10,
+    "customer": "เด็กพาร์ทไทม์ (Lazy Part-timer)",
+    "name": "โกโก้ร้อน (Hot Chocolate)",
+    "glass": {
+      "name": "แก้วมัค (Mug)",
+      "size": "S"
+    },
+    "shot": 0,
+    "ice": "",
+    "fill": {
+      "name": "นมสด (Milk)",
+      "volume": "25",
+      "temperature": 60
+    },
+    "tea": "",
+    "syrup": {
+      "name": "ช็อคโกแลตไซรัป (Chocolate)",
+      "pump": 2
+    },
+    "cream": {
+      "name": "",
+      "volume": ""
+    },
+    "topping": ""
+  },
+  {
+    "customerId": 10,
+    "customer": "เด็กพาร์ทไทม์ (Lazy Part-timer)",
+    "name": "โกโก้ร้อนพิเศษ (Double Hot Chocolate)",
+    "glass": {
+      "name": "แก้วมัค (Mug)",
+      "size": "S"
+    },
+    "shot": 0,
+    "ice": "",
+    "fill": {
+      "name": "นมสด (Milk)",
+      "volume": "40",
+      "temperature": 65
+    },
+    "tea": "",
+    "syrup": {
+      "name": "ช็อคโกแลตไซรัป (Chocolate)",
+      "pump": 4
+    },
+    "cream": {
+      "name": "",
+      "volume": ""
+    },
+    "topping": ""
+  },
+  {
+    "customerId": 10,
+    "customer": "เด็กพาร์ทไทม์ (Lazy Part-timer)",
+    "name": "คาราเมลดับเบิ้ลช็อตหวานๆ (Sweet Caramel Double Shot)",
+    "glass": {
+      "name": "เดมิทาส (Double Espresso)",
+      "size": ""
+    },
+    "shot": 2,
+    "ice": "",
+    "fill": {
+      "name": "นมสด (Milk)",
+      "volume": "21 - 29",
+      "temperature": 60
+    },
+    "tea": "",
+    "syrup": {
+      "name": "คาราเมลไซรัป (Caramel)",
+      "pump": 4
+    },
+    "cream": {
+      "name": "",
+      "volume": ""
+    },
+    "topping": "คาราเมล (Caramel)"
+  },
+  {
+    "customerId": 10,
+    "customer": "เด็กพาร์ทไทม์ (Lazy Part-timer)",
+    "name": "น้ำใส่น้ำแข็๋ง (Ice Water)",
+    "glass": {
+      "name": "แก้วใส (Cup)",
+      "size": "S"
+    },
+    "shot": 0,
+    "ice": "เยอะมาก (Full)",
+    "fill": {
+      "name": "น้ำเย็น (Cold Water)",
+      "volume": "15 - 19",
+      "temperature": 0
+    },
+    "tea": "",
+    "syrup": {
+      "name": "",
+      "pump": 0
+    },
+    "cream": {
+      "name": "",
+      "volume": ""
+    },
+    "topping": ""
   }
 ]
